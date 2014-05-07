@@ -12,7 +12,7 @@ owner="Hajime Isayama"
 		id="1"
 		title="Eren Jaeger" 
 		subtitle=""
-		image="images/Eren Jaeger.jpg"
+		image="images/characters/Eren Jaeger.jpg"
 		description="Héroe de esta historia. Tiene 15 años de edad. Siente un anhelo inusual al mundo exterior de la pared. Nació y creció en el Distrito Shiganshina de donde es procedente. Se graduó quinto en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento."
 		/>
 		
@@ -20,7 +20,7 @@ owner="Hajime Isayama"
 		id="2"
 		title="Mikasa Ackerman" 
 		subtitle=""
-		image="images/Mikasa Ackerman.jpg"
+		image="images/characters/Mikasa Ackerman.jpg"
 		description="Heroína de esta historia. Tiene 15 años de edad. Es amiga de la infancia y hermana adoptiva de Eren. Siente el deber de proteger a Eren ya que este años atras la rescato de unos comerciantes de humanos. Creció en el distrito de Shiganshina. Se graduó primera en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento. La clasificaron como Su desempeño es ejemplar en todo sentido y en verdad es un genio sin precedentes."
 		/>
 		
@@ -28,7 +28,7 @@ owner="Hajime Isayama"
 		id="3"
 		title="Armin Arlert" 
 		subtitle=""
-		image="images/Armin Arlert.jpg"
+		image="images/characters/Armin Arlert.jpg"
 		description="Amigo de la infancia de Eren y Mikasa. Tiene 15 años de edad. Nació y creció en el Distrito Shiganshina de donde es procedente. Se graduó en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento."
 		/>
 		
@@ -36,7 +36,7 @@ owner="Hajime Isayama"
 		id="4"
 		title="Reiner Braun" 
 		subtitle=""
-		image="images/Reiner Braun.jpg"
+		image="images/characters/Reiner Braun.jpg"
 		description="Compañero de Eren, Mikasa y Armin. Se graduó segundo en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento."
 		/>
 
@@ -44,7 +44,7 @@ owner="Hajime Isayama"
 		id="5"
 		title="Bertholdt Fubar" 
 		subtitle=""
-		image="images/Bertholdt Fubar.jpg"
+		image="images/characters/Bertholdt Fubar.jpg"
 		description="Compañero de Eren, Mikasa y Armin.Se graduó tercero en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento."
 		/>
 		
@@ -52,7 +52,7 @@ owner="Hajime Isayama"
 		id="6"
 		title="Annie Leonhardt" 
 		subtitle=""
-		image="images/Annie Leonhardt.jpg"
+		image="images/characters/Annie Leonhardt.jpg"
 		description="Chica tranquila y fría en todo momento. Procedencia desconocida. Se graduó cuarta en la 104º Tropa de Reclutas.Posteriormente se unió a la Policía Militar."
 		/>
 		
@@ -60,7 +60,7 @@ owner="Hajime Isayama"
 		id="7"
 		title="Jean Kirschtein" 
 		subtitle=""
-		image="images/Jean Kirschtein.jpg"
+		image="images/characters/Jean Kirschtein.jpg"
 		description="Compañero de Eren, Mikasa y Armin. Es procedente del distrito Trost. Se graduó sexto en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento."
 		/>
 		
@@ -68,7 +68,7 @@ owner="Hajime Isayama"
 		id="8"
 		title="Marco Bodt" 
 		subtitle=""
-		image="images/Marco Bodt.jpg"
+		image="images/characters/Marco Bodt.jpg"
 		description="Compañero de Eren, Mikasa y Armin. Se graduó séptimo en la 104º Tropa de Reclutas, fue encontrado muerto por Jean y aun no se sabe su causa de muerte."
 		/>
 		
@@ -76,7 +76,7 @@ owner="Hajime Isayama"
 		id="9"
 		title="Conny Springer" 
 		subtitle=""
-		image="images/Conny Springer.jpg"
+		image="images/characters/Conny Springer.jpg"
 		description="Compañero de Eren, Mikasa y Armin. Se graduó octavo en la 104º Tropa de Reclutas. Lleva la cabeza afeitada. Posteriormente se unió a la Legión de Reconocimiento."
 		/>
 		
@@ -84,7 +84,7 @@ owner="Hajime Isayama"
 		id="10"
 		title="Sasha Braus" 
 		subtitle=""
-		image="images/Sasha Braus.jpg"
+		image="images/characters/Sasha Braus.jpg"
 		description="Compañera de Eren, Mikasa y Armin. Se graduó novena en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento. Es una acaparadora de comida."
 		/>
 		
@@ -92,7 +92,7 @@ owner="Hajime Isayama"
 		id="11"
 		title="Historia Reiss" 
 		subtitle=""
-		image="images/Historia Reiss.jpg"
+		image="images/characters/Historia Reiss.jpg"
 		description="Compañera de Eren, Mikasa y Armin. Se graduó décima en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento. Oculto verdadero nombre haciéndose pasar por Christa Renz, y así ocultar que es la descendiente ilegítima de la familia real. Se planea que sea la futura reina."
 		/>
 		
@@ -100,7 +100,7 @@ owner="Hajime Isayama"
 		id="12"
 		title="Ymir" 
 		subtitle=""
-		image="images/Ymir.jpg"
+		image="images/characters/Ymir.jpg"
 		description="Se graduó en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento, posee la habilidad de transformarse en un titan de 7 metros de altura."
 		/>
 		
@@ -108,7 +108,7 @@ owner="Hajime Isayama"
 		id="13"
 		title="Erwin Smith" 
 		subtitle=""
-		image="images/Erwin Smith.jpg"
+		image="images/characters/Erwin Smith.jpg"
 		description="Comandante de las tropas de exploración."
 		/>
 		
@@ -116,7 +116,7 @@ owner="Hajime Isayama"
 		id="14"
 		title="Levi Rivaille" 
 		subtitle=""
-		image="images/Levi Rivaille.jpg"
+		image="images/characters/Levi Rivaille.jpg"
 		description="segundo comandante de las tropas de exploración. Se dice que es el mejor soldado de la humanidad y que tiene la fuerza de un ejército, es adicto a la limpieza."
 		/>
 		
@@ -124,152 +124,210 @@ owner="Hajime Isayama"
 		id="15"
 		title="Hanji Zoe" 
 		subtitle=""
-		image="images/Hanji Zoe.jpg"
+		image="images/characters/Hanji Zoe.jpg"
 		description="Sargento de las tropas de exploración, tiene una gran adicción a los titanes."
 		/>
 		
 		<page 
-		id="16"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
-		/>
-		
-		<page 
-		id="18"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
-		/>
-		
-		<page 
 		id="19"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="Para ti, dos mil años después" 
+		subtitle="La caída de Shiganshina (Parte 1)"
+		image="images/episodes/episode 01.jpg"
+		description="Eren y su hermana Mikasa viven en el interior del muro, una barrera de más de cincuenta metros con más de cien años que mantiene a la humanidad a salvo de los titanes. Sin embargo Eren quieren unirse a la Legión para combatir a los titanes, porque está convencido de que vivir como ganado no es lo correcto. Pero todo cambia cuando algo inesperado pasa que les hace ver el comienzo del fin de la humanidad."
 		/>
 		
 		<page 
 		id="20"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="Ese día" 
+		subtitle="La caída de Shiganshina (Parte 2)"
+		image="images/episodes/episode 02.jpg"
+		description="La población sobreviviente, cuando el muro cayó, no tiene otra opción que la de escapar al interior de los muros. Esto, sin embargo, conduce a fuertes tensiones entre la población como de repente dejan de mantener reservas de alimentos necesarios para alimentar a todos. Así, después de vanos intentos por recuperar las zonas invadidas por los titanes Eran, Mikasa y Armin deciden alistarse para luchar contra los titanes."
 		/>
 		
 		<page 
 		id="21"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="Una débil luz en la desesperación" 
+		subtitle="La restauración de la humanidad (Parte 1)"
+		image="images/episodes/episode 03.jpg"
+		description="Los nuevos reclutas están a punto de comenzar el entrenamiento que les llevará a convertirse en soldados de verdad. Estos jóvenes provienen de todas partes, pero primero tendrán que dejar atrás su individualidad. Aquellos que han mirado a la muerte en la cara afrontan el alistamiento de forma distinta. Eren pasará por una prueba que determinará su futuro como soldado."
 		/>
 		
 		<page 
 		id="22"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="La noche de la disolución" 
+		subtitle="La restauración de la humanidad (Parte 2)"
+		image="images/episodes/episode 04.jpg"
+		description="Dos años pasan y es tiempo de la graduación de los reclutas. Eren aprende el hecho de que muchos de sus compañeros sólo perfeccionan sus habilidades para ganarse un puesto en la policía militar y evitar enfrentarse a los Titanes. Eren está empeñado en unirse al cuerpo de reconstrucción y cumplir su sueño para derrotar a todos los titanes y ver el mundo más allá de las paredes. Solo que los titanes son el impedimento de su sueño."
 		/>
 		
 		<page 
 		id="23"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="Primera Batalla" 
+		subtitle="La defensa de Trost (Parte 1)"
+		image="images/episodes/episode 05.jpg"
+		description="Cinco años después de la caída del muro de María, el titán colosal ha vuelto a aparecer y abre un agujero en el muro del distrito de Trost. Eren intenta enfrentarse a él pero éste desaparece. El ejercito se moviliza rápidamente para organizarse y enfrentarse a los titanes que empiezan a entrar por el agujero en el muro. Eren y Armin, junto a otros, son enviados al centro del distrito mientras que Mikasa es enviada a la retaguardia para ayudar en el desalojo de los civiles de Trost."
 		/>
 		
 		<page 
 		id="24"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="El mundo que ella vió" 
+		subtitle="La defensa de Trost (Parte 2)"
+		image="images/episodes/episode 06.jpg"
+		description="El grupo de Eren ha caído víctima de los titanes. El único superviviente ha sido Armin, que se muestra desolado tras ver como Eren se ha sacrificado para salvar su vida. En la retaguardia, Mikasa es ajena a todo lo sucedido y termina la evacuación de Trost mientras recuerda como conoció a Eren y fue adoptada por su familia."
 		/>
 		
 		<page 
 		id="25"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="Una pequeña cuchilla" 
+		subtitle="La defensa de Trost (Parte 3)"
+		image="images/episodes/episode 07.jpg"
+		description="Mikasa parece no sentirse afectada por haber perdido a Eren y decide lanzarse a por los titanes que impiden el suministro de gas en el cuartel general. Algunos deciden seguirla pero Mikasa se queda sin gas antes de llegar y cae a las calles de la ciudad. Jean se queda solo al mando de los pocos soldados que quedan y se replantea si sirve para soldado. Mikasa queda a merced de dos titanes que han aparecido en la calle."
 		/>
 		
 		<page 
 		id="26"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="Puedo oír un corazón latiendo" 
+		subtitle="La defensa de Trost (Parte 4)"
+		image="images/episodes/episode 08.jpg"
+		description="Aparece un titán anormal que ataca a otros titanes y gracias a él, Mikasa consigue salvarse. Armin observa al titán y cree que podrían utilizarlo para llegar hasta el cuartel. Por otro lado, Jean consigue liderar a los soldados y llegar hasta el cuartel de suministros, pero por el camino muchos han caído y se siente culpable. Cuando Mikasa y Armin llegan al cuartel, inician un plan para eliminar a los siete titanes menores que hay en el interior del complejo y así conseguir el gas para el equipo tridimensional y escalar los muros. El titán anormal sigue enfrentándose en el exterior del cuartel a otros titanes que le atacan, y finalmente cae incapaz de regenerar sus heridas."
 		/>
 		
 		<page 
 		id="27"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="¿Donde fue el brazo izquierdo?" 
+		subtitle="La defensa de Trost (Parte 5)"
+		image="images/episodes/episode 09.jpg"
+		description="Eren Jaeger ha salido del cuerpo del titán anormal y no recuerda nada de lo sucedido, pero es tratado como un traidor de la humanidad y un monstruo. Mikasa y Armin intentan defenderlo de los soldados que están tan asustados que no pueden pensar con claridad."
+		/>
+		
+		<page 
+		id="28"
+		title="Respuesta" 
+		subtitle="La defensa de Trost (Parte 6)"
+		image="images/episodes/episode 10.jpg"
+		description="Eren se transforma parcialmente en titán para cubrir a sus amigos cuando una bala de cañon se dirigía a ellos. Aprovechando la confusión del momento, debate con Armin y Mikasa que hacer a continuación, y pide a Armin que trate de convencer a los asustados solados para que dejen de atacarlos. 
+Mientras tanto, el ánimo de los soldados que han sobrevivido al ataque de los titanes en Trost se desmorona y algunos piensan en desertar del ejército."
+		/>
+		
+		<page 
+		id="29"
+		title="Ídolo" 
+		subtitle="La defensa de Trost (Parte 7)"
+		image="images/episodes/episode 11.jpg"
+		description="Dott Pixis, Comandante del ejército a cargo del Sur del muro de María, impide al ejecución de Eren y sus amigos tras escuchar las palabras de Armin. Después de hablar en privado con ellos, decide apostarlo todo a una carta para recuperar el distrito de Trost utilizando el poder de titán de Eren."
 		/>
 		
 		<page 
 		id="30"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="Herida" 
+		subtitle="La defensa de Trost (Parte 8)"
+		image="images/episodes/episode 12.jpg"
+		description="La operación para tapar el agujero del muro en Trost ha empezado mal. Eren se muestra incapaz de controlar su estado de titán y ataca a Mikasa para posteriormente lesionarse gravemente. El grupo de élite a cargo de la operación decide entonces cambiar de objetivo y centrarse en proteger a Eren hasta que salga de su cuerpo. Armin llega al lugar he intenta comunicarse con Eren hablándole desde la nuca. Mientras tanto, al otro lado de Trost, decenas de soldados caen intentando distraer a los titanes de la presencia de Eren."
 		/>
 		
 		<page 
 		id="31"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="Necesidades básicas" 
+		subtitle="La defensa de Trost (Parte 9)"
+		image="images/episodes/episode 13.jpg"
+		description="La operación para recuperar Trost ha sido un éxito. Gracias a Armin, Eren consiguió controlar su estado de titán y tapar el agujero del muro con una enorme roca. Pero el precio pagado por esta victoria ha sido muy alto y cientos de soldados han caído, entre ellos Marco. Eren es llevado a unos calabozos donde se encuentra con el Comandante del grupo de Exploración, Erwin y el capitán Levi."
 		/>
 		
 		<page 
 		id="32"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="No puedo mirarle a los ojos" 
+		subtitle="Preludio para el contraataque (Parte 1)"
+		image="images/episodes/episode 14.jpg"
+		description="Eren Jaeger se enfrenta a un juicio militar que decidirá su futuro. Por un lado las Tropas de Reconocimiento lo quieren a su lado ya que su habilidad de transformación en titán les podría ser de mucha ayuda fuera de los muros, por otro lado, la Brigada de Gendarmería quiere que se quede bajo custodia como sujeto de investigación y darle muerte. Al mismo tiempo, el grupo religioso pide su inminente ejecución. La decisión final está en manos del alto comandante Zackay."
 		/>
 		
 		<page 
 		id="33"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="El escuadrón de operaciones especiales" 
+		subtitle="Preludio para el contraataque (Parte 2)"
+		image="images/episodes/episode 15.jpg"
+		description="Eren consigue entrar en las Tropas de Reconocimiento y allí conoce a sus nuevos compañeros, el escuadrón de operaciones especiales elegido por el capitán Levi para que lo tengan vigilado tal como se había acordado en el juicio. La Mayor Hanji se presenta como la líder del equipo de experimentación que intenta descubrir todos los secretos de los titanes, para ello, cuenta con dos titanes capturados durante la batalla de recuperación del distrito de Trost. Por otra parte, Erwin Smith empieza a planear la estrategia que seguirá en la próxima misión fuera de los muros de las Tropas de Reconocimiento."
 		/>
 		
 		<page 
 		id="34"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="¿Qué debería hacer?" 
+		subtitle="Preludio para el contraataque (Parte 3)"
+		image="images/episodes/episode 16.jpg"
+		description="Los dos titanes que la Mayor Hanji tenía prisioneros para sus experimentos han sido asesinados por alguien, pero la investigación para descubrir al culpable no dan ningún resultado. Finalmente, llega el momento en que todos los cadetes de la promoción 104 deben elegir destino y como es normal, no todos anhelan entrar en las Tropas de Reconocimiento y prefieren la vida tranquila en el interior de los muros. Tras esto, todos los miembros de las Tropas de Reconocimiento, nuevos y antiguos, se preparan para la cinquagésimo séptima misión de reconocimiento fuera de los muros."
 		/>
 		
 		<page 
 		id="35"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="El titán femenino" 
+		subtitle="57ª expedición fuera de los muros (Parte 1)"
+		image="images/episodes/episode 17.jpg"
+		description="Una nueva expedición empieza fuera de los muros con el objetivo de crear una ruta que permita llegar hasta Shiganshina. La formación ideada por Erwin funciona perfectamente hasta que un extraño titán con apariencia femenina y que demuestra tener inteligencia aparece en escena rompiendo el flanco derecho de la formación, justo donde se encuentra Armin. Misteriosamente, el titán deja con vida a Armin después de derribarlo y sigue corriendo. Jean y Reiner llegan a donde está Armin y deciden formar equipo para parar los pies al titán."
 		/>
 		
 		<page 
 		id="36"
-		title="" 
-		subtitle=""
-		image="images/.jpg"
-		description=""
+		title="El bosque de los árboles gigantes" 
+		subtitle="57ª expedición fuera de los muros (Parte 2)"
+		image="images/episodes/episode 18.jpg"
+		description="Tras el encuentro con el grupo de Armin, Jean y Reiner, el titán femenino ha cambiado el rumbo y ahora corre hacía el centro de la formación donde se encuentra el grupo de Levi: el escuadrón de operaciones especiales y Eren. El titán femenino va dejando un rastro de muerte a su camino debido a sus altas habilidades de combate con las que consigue acabar con todos los soldados que se cruza. El centro de la formación decide introducirse en el interior de un bosque de árboles gigantes para atraer al titán a un terreno más favorable."
+		/>
+		
+		<page 
+		id="37"
+		title="Muerde" 
+		subtitle="57ª expedición fuera de los muros (Parte 3)"
+		image="images/episodes/episode 19.jpg"
+		description="El objetivo del titán femenino es claramente Eren Jaeger, y cada vez está más cerca de él y del escuadrón que lo protege. Levi ordena seguir cabalgando sin mirar atrás y no enfrentarse al titán pese a tenerlo pisandoles los talones. Eren no entiende esta orden y se sorprende al ver que el resto del escuadrón la acata pese a no entenderla. Aún así, Eren está dispuesto a morderse para transformarse en titán y enfrentarse a la amenaza."
+		/>
+		
+		<page 
+		id="38"
+		title="Erwin Smith" 
+		subtitle="57ª expedición fuera de los muros (Parte 4)"
+		image="images/episodes/episode 20.jpg"
+		description="El titán femenino ha sido capturado con vida gracias a que todo estaba planeado por Erwin para atraerlo a una trampa donde ha quedado inmovilizado. El coste de la estrategia en vidas ha sido alto aunque el resultado sea el esperado por el Comandante. Eren es guiado por el escuadrón especial a un lugar apartado mientras las tropas deciden que hacer con el titán femenino, pero cuando éste se ve completamente derrotado realiza un movimiento por sorpresa y la situación se descontrola. Decenas de titanes entran en el bosque con el objetivo de devorar al titán femenino y Erwin Smith debe ordenar la retirada."
+		/>
+		
+		<page 
+		id="39"
+		title="Golpe devastador" 
+		subtitle="57ª expedición fuera de los muros (Parte 5)"
+		image="images/episodes/episode 21.jpg"
+		description="Todo parecía haber acabado, pero la persona que había en el interior del titán femenino logra escapar y hacerse pasar por un soldado más hasta encontrar al escuadrón de operaciones especiales y a Eren. Tras transformarse de nuevo en el titán femenino, se enfrenta al escuadrón que ordena a Eren que se huya del lugar. Pero la fuerza combinada del famoso escuadrón no es suficiente para acabar con el titán femenino y Eren se transforma para enfrentarse en una cruenta batalla para salvar su vida y vengar a los caídos."
+		/>
+		
+		<page 
+		id="40"
+		title="Los vencidos" 
+		subtitle="57ª expedición fuera de los muros (Parte 6)"
+		image="images/episodes/episode 22.jpg"
+		description="El titán femenino ha capturado a Eren tras derrotar a su forma de titán y huye del lugar. Mikasa y Levi la alcanzan y gracias a las sorprendentes habilidades de Levi consiguen acorralar al titán y rescatar a Eren, pero Levi resulta herido en una pierna al intentar proteger a Mikasa de un inesperado ataque del titán, que cae derrotado aunque no muerto.
+Erwin ordena regresar al interior del muro de Rose y da por terminada esta misión con un resultado nefasto y la vida de muchos soldados perdida sin haber conseguido su objetivo. Pero el regreso al interior de los muros tampoco será fácil ya que se encuentran titanes por su camino."
+		/>
+		
+		<page 
+		id="41"
+		title="Sonrisa" 
+		subtitle="Asalto en el distrito Stohess (Parte 1)"
+		image="images/episodes/episode 23.jpg"
+		description="Tras el fracaso en el intento de capturar al titán femenino, y las numerosas bajas en la misión, Erwin es obligado a llevar a Eren a la Corte Real en el centro del país para entregarlo. Una vez dentro de los muros de Sina, en el distrito de Stohess se llevará a cabo un plan de Armin para permitir a Eren escapar a su posible ejecución, pero necesitará la ayuda de Annie Leonhardt, la compañera de la promoción 104 que ingresó en la Brigada de Gendarmería. Una vez iniciado el plan, un hecho impactante sale a la luz."
+		/>
+		
+		<page 
+		id="42"
+		title="Misericordia" 
+		subtitle="Asalto en el distrito Stohess (Parte 2)"
+		image="images/episodes/episode 24.jpg"
+		description="Annie Leonhardt se revela como el titán femenino y desata el caos en el distrito de Stohess mientras intenta capturar a Eren de nuevo. Los intentos de capturar al titán van fracasando al mismo tiempo que Eren no consigue transformarse, debido a que no encuentra la voluntad para enfrentarse a Annie. El futuro de la humanidad dependerá de esta última oportunidad de capturar al titán femenino."
+		/>
+		
+		<page 
+		id="43"
+		title="Muro" 
+		subtitle="Asalto en el distrito Stohess (Parte 3)"
+		image="images/episodes/episode 25.jpg"
+		description="El enfrentamiento entre Eren y Annie, ambos en su forma de titán, va camino de destruir toda la ciudad de Stohess, y las víctimas, entre civiles y soldados, ya se cuentan por decenas. Finalmente, Eren consigue poner contra las cuerdas a Annie y el titán femenino cae, pero la victoria no es completa. Tras el incidente, Erwin Smith es detenido y sometido a juicio por los daños causados en su operación por capturar a Annie."
 		/>
 		
 	</pages>
