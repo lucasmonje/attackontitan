@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config
+name="Attack on Titan"
+releaseDate="6 de abril de 2013"
+endDate="28 de septiembre de 2013"
+tags="Acción, Aventura, Drama, Fantasía oscura, Histórico, Horror, Retrofuturismo, Shonen"
+owner="Hajime Isayama"
+>
+	
+	<pages>
+		<page 
+		id="1"
+		title="Eren Jaeger" 
+		subtitle=""
+		image="images/Eren Jaeger.jpg"
+		description="Héroe de esta historia. Tiene 15 años de edad. Siente un anhelo inusual al mundo exterior de la pared. Nació y creció en el Distrito Shiganshina de donde es procedente. Se graduó quinto en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento."
+		/>
+		
+		<page 
+		id="2"
+		title="Mikasa Ackerman" 
+		subtitle=""
+		image="images/Mikasa Ackerman.jpg"
+		description="Heroína de esta historia. Tiene 15 años de edad. Es amiga de la infancia y hermana adoptiva de Eren. Siente el deber de proteger a Eren ya que este años atras la rescato de unos comerciantes de humanos. Creció en el distrito de Shiganshina. Se graduó primera en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento. La clasificaron como Su desempeño es ejemplar en todo sentido y en verdad es un genio sin precedentes."
+		/>
+		
+		<page 
+		id="3"
+		title="Armin Arlert" 
+		subtitle=""
+		image="images/Armin Arlert.jpg"
+		description="Amigo de la infancia de Eren y Mikasa. Tiene 15 años de edad. Nació y creció en el Distrito Shiganshina de donde es procedente. Se graduó en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento."
+		/>
+		
+		<page 
+		id="4"
+		title="Reiner Braun" 
+		subtitle=""
+		image="images/Reiner Braun.jpg"
+		description="Compañero de Eren, Mikasa y Armin. Se graduó segundo en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento."
+		/>
+
+		<page 
+		id="5"
+		title="Bertholdt Fubar" 
+		subtitle=""
+		image="images/Bertholdt Fubar.jpg"
+		description="Compañero de Eren, Mikasa y Armin.Se graduó tercero en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento."
+		/>
+		
+		<page 
+		id="6"
+		title="Annie Leonhardt" 
+		subtitle=""
+		image="images/Annie Leonhardt.jpg"
+		description="Chica tranquila y fría en todo momento. Procedencia desconocida. Se graduó cuarta en la 104º Tropa de Reclutas.Posteriormente se unió a la Policía Militar."
+		/>
+		
+		<page 
+		id="7"
+		title="Jean Kirschtein" 
+		subtitle=""
+		image="images/Jean Kirschtein.jpg"
+		description="Compañero de Eren, Mikasa y Armin. Es procedente del distrito Trost. Se graduó sexto en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento."
+		/>
+		
+		<page 
+		id="8"
+		title="Marco Bodt" 
+		subtitle=""
+		image="images/Marco Bodt.jpg"
+		description="Compañero de Eren, Mikasa y Armin. Se graduó séptimo en la 104º Tropa de Reclutas, fue encontrado muerto por Jean y aun no se sabe su causa de muerte."
+		/>
+		
+		<page 
+		id="9"
+		title="Conny Springer" 
+		subtitle=""
+		image="images/Conny Springer.jpg"
+		description="Compañero de Eren, Mikasa y Armin. Se graduó octavo en la 104º Tropa de Reclutas. Lleva la cabeza afeitada. Posteriormente se unió a la Legión de Reconocimiento."
+		/>
+		
+		<page 
+		id="10"
+		title="Sasha Braus" 
+		subtitle=""
+		image="images/Sasha Braus.jpg"
+		description="Compañera de Eren, Mikasa y Armin. Se graduó novena en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento. Es una acaparadora de comida."
+		/>
+		
+		<page 
+		id="11"
+		title="Historia Reiss" 
+		subtitle=""
+		image="images/Historia Reiss.jpg"
+		description="Compañera de Eren, Mikasa y Armin. Se graduó décima en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento. Oculto verdadero nombre haciéndose pasar por Christa Renz, y así ocultar que es la descendiente ilegítima de la familia real. Se planea que sea la futura reina."
+		/>
+		
+		<page 
+		id="12"
+		title="Ymir" 
+		subtitle=""
+		image="images/Ymir.jpg"
+		description="Se graduó en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento, posee la habilidad de transformarse en un titan de 7 metros de altura."
+		/>
+		
+		<page 
+		id="13"
+		title="Erwin Smith" 
+		subtitle=""
+		image="images/Erwin Smith.jpg"
+		description="Comandante de las tropas de exploración."
+		/>
+		
+		<page 
+		id="14"
+		title="Levi Rivaille" 
+		subtitle=""
+		image="images/Levi Rivaille.jpg"
+		description="segundo comandante de las tropas de exploración. Se dice que es el mejor soldado de la humanidad y que tiene la fuerza de un ejército, es adicto a la limpieza."
+		/>
+		
+		<page 
+		id="15"
+		title="Hanji Zoe" 
+		subtitle=""
+		image="images/Hanji Zoe.jpg"
+		description="Sargento de las tropas de exploración, tiene una gran adicción a los titanes."
+		/>
+		
+		<page 
+		id="16"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="18"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="19"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="20"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="21"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="22"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="23"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="24"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="25"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="26"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="27"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="30"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="31"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="32"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="33"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="34"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="35"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="36"
+		title="" 
+		subtitle=""
+		image="images/.jpg"
+		description=""
+		/>
+		
+	</pages>
+	
+	<nav>
+		<category name="Personajes">
+			<link pageId="1" />
+			<link pageId="2" />
+			<link pageId="3" />
+			<link pageId="4" />
+			<link pageId="5" />
+			<link pageId="6" />
+			<link pageId="7" />
+			<link pageId="8" />
+			<link pageId="9" />
+			<link pageId="10" />
+			<link pageId="11" />
+			<link pageId="12" />
+			<link pageId="13" />
+			<link pageId="14" />
+			<link pageId="15" />
+		</category>
+	</nav>
+
+</config>
+
