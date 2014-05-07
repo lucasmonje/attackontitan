@@ -8,6 +8,8 @@ owner="Hajime Isayama"
 >
 	
 	<pages>
+	
+<!-- CHARACTERS -->	
 		<page 
 		id="1"
 		title="Eren Jaeger" 
@@ -63,17 +65,9 @@ owner="Hajime Isayama"
 		image="images/characters/Jean Kirschtein.jpg"
 		description="Compañero de Eren, Mikasa y Armin. Es procedente del distrito Trost. Se graduó sexto en la 104º Tropa de Reclutas. Posteriormente se unió a la Legión de Reconocimiento."
 		/>
-		
+			
 		<page 
 		id="8"
-		title="Marco Bodt" 
-		subtitle=""
-		image="images/characters/Marco Bodt.jpg"
-		description="Compañero de Eren, Mikasa y Armin. Se graduó séptimo en la 104º Tropa de Reclutas, fue encontrado muerto por Jean y aun no se sabe su causa de muerte."
-		/>
-		
-		<page 
-		id="9"
 		title="Conny Springer" 
 		subtitle=""
 		image="images/characters/Conny Springer.jpg"
@@ -81,7 +75,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="10"
+		id="9"
 		title="Sasha Braus" 
 		subtitle=""
 		image="images/characters/Sasha Braus.jpg"
@@ -89,7 +83,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="11"
+		id="10"
 		title="Historia Reiss" 
 		subtitle=""
 		image="images/characters/Historia Reiss.jpg"
@@ -97,7 +91,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="12"
+		id="11"
 		title="Ymir" 
 		subtitle=""
 		image="images/characters/Ymir.jpg"
@@ -105,7 +99,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="13"
+		id="12"
 		title="Erwin Smith" 
 		subtitle=""
 		image="images/characters/Erwin Smith.jpg"
@@ -113,7 +107,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="14"
+		id="13"
 		title="Levi Rivaille" 
 		subtitle=""
 		image="images/characters/Levi Rivaille.jpg"
@@ -121,13 +115,15 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="15"
+		id="14"
 		title="Hanji Zoe" 
 		subtitle=""
 		image="images/characters/Hanji Zoe.jpg"
 		description="Sargento de las tropas de exploración, tiene una gran adicción a los titanes."
 		/>
+<!-- END CHARACTERS -->		
 		
+<!-- EPISODES -->
 		<page 
 		id="19"
 		title="Para ti, dos mil años después" 
@@ -205,8 +201,7 @@ owner="Hajime Isayama"
 		title="Respuesta" 
 		subtitle="La defensa de Trost (Parte 6)"
 		image="images/episodes/episode 10.jpg"
-		description="Eren se transforma parcialmente en titán para cubrir a sus amigos cuando una bala de cañon se dirigía a ellos. Aprovechando la confusión del momento, debate con Armin y Mikasa que hacer a continuación, y pide a Armin que trate de convencer a los asustados solados para que dejen de atacarlos. 
-Mientras tanto, el ánimo de los soldados que han sobrevivido al ataque de los titanes en Trost se desmorona y algunos piensan en desertar del ejército."
+		description="Eren se transforma parcialmente en titán para cubrir a sus amigos cuando una bala de cañon se dirigía a ellos. Aprovechando la confusión del momento, debate con Armin y Mikasa que hacer a continuación, y pide a Armin que trate de convencer a los asustados solados para que dejen de atacarlos. Mientras tanto, el ánimo de los soldados que han sobrevivido al ataque de los titanes en Trost se desmorona y algunos piensan en desertar del ejército."
 		/>
 		
 		<page 
@@ -302,8 +297,7 @@ Mientras tanto, el ánimo de los soldados que han sobrevivido al ataque de los t
 		title="Los vencidos" 
 		subtitle="57ª expedición fuera de los muros (Parte 6)"
 		image="images/episodes/episode 22.jpg"
-		description="El titán femenino ha capturado a Eren tras derrotar a su forma de titán y huye del lugar. Mikasa y Levi la alcanzan y gracias a las sorprendentes habilidades de Levi consiguen acorralar al titán y rescatar a Eren, pero Levi resulta herido en una pierna al intentar proteger a Mikasa de un inesperado ataque del titán, que cae derrotado aunque no muerto.
-Erwin ordena regresar al interior del muro de Rose y da por terminada esta misión con un resultado nefasto y la vida de muchos soldados perdida sin haber conseguido su objetivo. Pero el regreso al interior de los muros tampoco será fácil ya que se encuentran titanes por su camino."
+		description="El titán femenino ha capturado a Eren tras derrotar a su forma de titán y huye del lugar. Mikasa y Levi la alcanzan y gracias a las sorprendentes habilidades de Levi consiguen acorralar al titán y rescatar a Eren, pero Levi resulta herido en una pierna al intentar proteger a Mikasa de un inesperado ataque del titán, que cae derrotado aunque no muerto. Erwin ordena regresar al interior del muro de Rose y da por terminada esta misión con un resultado nefasto y la vida de muchos soldados perdida sin haber conseguido su objetivo. Pero el regreso al interior de los muros tampoco será fácil ya que se encuentran titanes por su camino."
 		/>
 		
 		<page 
@@ -329,7 +323,57 @@ Erwin ordena regresar al interior del muro de Rose y da por terminada esta misi�
 		image="images/episodes/episode 25.jpg"
 		description="El enfrentamiento entre Eren y Annie, ambos en su forma de titán, va camino de destruir toda la ciudad de Stohess, y las víctimas, entre civiles y soldados, ya se cuentan por decenas. Finalmente, Eren consigue poner contra las cuerdas a Annie y el titán femenino cae, pero la victoria no es completa. Tras el incidente, Erwin Smith es detenido y sometido a juicio por los daños causados en su operación por capturar a Annie."
 		/>
+<!-- END EPISODES -->
+
+<!-- HISTORICAL CONTEXT -->
+		<page 
+		id="44"
+		title="Policía Militar" 
+		subtitle="La guardia personal del Rey"
+		image="images/historicalcontext/Policia Militar.jpg"
+		description="Es una rama de las divisiones militares. Están encargadas de servir al Rey y mantener el orden en la pared interior. Es el grupo más prestigioso ya que sólo los 10 mejores calificaciones de cada ciclo pueden solicitar unirse a la Policía Militar. Más allá de ser el grupo más prestigioso por su trabajo que les permite vivir en el el interior es una de las divisiones militares más dañadas y corruptas debido a la falta de control en comparación a otros sectores del ejército."
+		/>
 		
+		<page 
+		id="45"
+		title="Legión de Reconocimiento" 
+		subtitle="Exploradores del exterior"
+		image="images/historicalcontext/Legion de Reconocimiento.jpg"
+		description="Es uno de los tres organismos en que se divide el ejército de la humanidad. La Legión de Reconocimiento se encarga de luchar contra los titanes en las afueras de las murallas para obtener información útil sobre como vencerlos. A pesar de los constantes fallos y las grandes pérdidas cuando salen de las murallas, las personas los siguen considerando 'la poca esperanza de la humanidad', porque si ellos obtienen la victoria el mundo entero la tendrá."
+		/>
+		
+		<page 
+		id="46"
+		title="Tropas Estacionarias" 
+		subtitle="Protegiendo las murallas"
+		image="images/historicalcontext/Tropas Estacionarias.jpg"
+		description="Son una de las divisiones militares encargadas de proteger y mantener el orden dentro de las murallas. La mayoría de los soldados se unen a las Tropas Estacionarias debido a que en la Legión de Reconocimiento las misiones tienen un riesgo de mortalidad mayor y en la Policía Militar la entrada es limitada, ya que entran sólo los 10 mejores de cada ciclo. Ya que tienen contacto cercano con los humanos y los titanes (Por su ubicación en las partes superiores de las murallas) son expertos en una amplia variedad de tareas ya sea como el uso de cañones, control de multitudes, etc. Están más especializados en batallas defensivas."
+		/>
+		
+		<page 
+		id="47"
+		title="Culto del Muro" 
+		subtitle="Inculcar y practicar la fé hacia los muros"
+		image="images/historicalcontext/Culto del Muro.jpg"
+		description="Los miembros del Culto del Muro creen que las murallas son una divinidad, estas mismas no deben ser intervenidas de ninguna manera por seres humanos. Esta facción religiosa ha reunido adeptos rápidamente desde su creación, gracias a eso intervienen mucho en las decisiones del gobierno. Se los ve presentes en muchas partes de los distritos. Cita de un predicador en Shiganshina: '¡Escuchen! ¡Los muros se han creado gracias a la sabiduría de dios! ¡Las murallas son la obra de dios! ¡Ningún alma podrá profanar estas murallas!'."
+		/>
+		
+		<page 
+		id="48"
+		title="" 
+		subtitle=""
+		image="images/historicalcontext/.jpg"
+		description=""
+		/>
+		
+		<page 
+		id="49"
+		title="" 
+		subtitle=""
+		image="images/historicalcontext/.jpg"
+		description=""
+		/>
+<!-- END HISTORICAL CONTEXT -->
 	</pages>
 	
 	<nav>
