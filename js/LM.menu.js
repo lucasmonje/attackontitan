@@ -11,19 +11,43 @@ var LM = LM || {};
                 branches:[],
                 count:0
             },
-            itemsCapacity: 10
+            currentIndex : 0,
+            itemsCapacity: 10,
+            lastItemMenuIdSelected: -1,
+            lastItemMenuIdOpened: -1
         };
 
     _module = {
+        setSelectedItem : function(itemMenuId) {
+            var lastItemMenuSelected = _data.menu.map[_data.lastItemMenuIdSelected];
+            lastItemMenuSelected.selected = false;
+
+            var itemMenuSelected = _data.menu.map[_data.itemMenuId];
+            itemMenuSelected.selected = true;
+
+            _data.lastItemMenuIdSelected = itemMenuId;
+        },
+        setOpenedItem: function(itemMenuId) {
+            var itemMenuOpened = _data.menu.map[_data.itemMenuId];
+            itemMenuOpened.selected = true;
+
+            var lastItemMenuOpened = _data.menu.map[_data.lastItemMenuIdOpened];
+            lastItemMenuOpened.selected = itemMenuOpened.parentItemId == _data.lastItemMenuIdOpened;
+            _data.lastItemMenuIdOpened = itemMenuId;
+        },
+        setCurrentIndex : function(v) {
+          _data.currentIndex = v;
+        },
+        getCurrentIndex : function() {
+            return _data.currentIndex;
+        },
         getItemsList : function() {
             var list = [];
             for (var itemMenu in _data.menu.branches) {
-                if (list.length == _data.itemsCapacity) {
-                    return list;
-                }
                 LM.Menu.updateItemList(list, itemMenu);
             }
-            return list;
+            var result = list.splice(_data.currentIndex, _data.itemsCapacity);
+            return result;
         },
         updateItemList : function(list, itemMenu) {
             list[list.length] = itemMenu;
@@ -33,26 +57,23 @@ var LM = LM || {};
         },
         updateCategoryList : function(list, itemCategory) {
             for (var childItemId in itemCategory.childItemsIds) {
-                if (list.length == _data.itemsCapacity) {
-                    break;
-                }
                 var childItem = LM.Menu.getItemMenuById(childItemId);
                 updateItemList(list, childItem);
-
             }
         },
-        addItemMenu : function(itemMenuId, treeDepth, pageId, childItemsIds) {
+        addItemMenu : function(itemMenuId, treeDepth, pageId, parentItemId, childItemsIds) {
             var page = LM.Config.getPage(pageId);
             var itemMenu = {
                 itemMenuId: itemMenuId,
                 treeDepth: treeDepth,
                 pageId : pageId,
+                parentItemId: parentItemId,
                 childItemsIds : childItemsIds,
                 page: page,
                 name: page.name,
                 isCategory: childItemsIds.length > 0,
-                isSelected: false,
-                isOpened: false
+                selected: false,
+                opened: false
             };
 
             _data.menu.keys[_data.menu.count] = itemMenuId;
