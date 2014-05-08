@@ -11,7 +11,7 @@ owner="Hajime Isayama"
 	
 <!-- CHARACTERS -->	
 		<page 
-		id="1"
+		pageId="1"
 		title="Eren Jaeger" 
 		subtitle=""
 		image="images/characters/Eren Jaeger.jpg"
@@ -19,7 +19,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="2"
+		pageId="2"
 		title="Mikasa Ackerman" 
 		subtitle=""
 		image="images/characters/Mikasa Ackerman.jpg"
@@ -27,7 +27,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="3"
+		pageId="3"
 		title="Armin Arlert" 
 		subtitle=""
 		image="images/characters/Armin Arlert.jpg"
@@ -35,7 +35,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="4"
+		pageId="4"
 		title="Reiner Braun" 
 		subtitle=""
 		image="images/characters/Reiner Braun.jpg"
@@ -43,7 +43,7 @@ owner="Hajime Isayama"
 		/>
 
 		<page 
-		id="5"
+		pageId="5"
 		title="Bertholdt Fubar" 
 		subtitle=""
 		image="images/characters/Bertholdt Fubar.jpg"
@@ -51,7 +51,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="6"
+		pageId="6"
 		title="Annie Leonhardt" 
 		subtitle=""
 		image="images/characters/Annie Leonhardt.jpg"
@@ -59,7 +59,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="7"
+		pageId="7"
 		title="Jean Kirschtein" 
 		subtitle=""
 		image="images/characters/Jean Kirschtein.jpg"
@@ -67,7 +67,7 @@ owner="Hajime Isayama"
 		/>
 			
 		<page 
-		id="8"
+		pageId="8"
 		title="Conny Springer" 
 		subtitle=""
 		image="images/characters/Conny Springer.jpg"
@@ -75,7 +75,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="9"
+		pageId="9"
 		title="Sasha Braus" 
 		subtitle=""
 		image="images/characters/Sasha Braus.jpg"
@@ -83,7 +83,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="10"
+		pageId="10"
 		title="Historia Reiss" 
 		subtitle=""
 		image="images/characters/Historia Reiss.jpg"
@@ -91,7 +91,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="11"
+		pageId="11"
 		title="Ymir" 
 		subtitle=""
 		image="images/characters/Ymir.jpg"
@@ -99,7 +99,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="12"
+		pageId="12"
 		title="Erwin Smith" 
 		subtitle=""
 		image="images/characters/Erwin Smith.jpg"
@@ -107,7 +107,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="13"
+		pageId="13"
 		title="Levi Rivaille" 
 		subtitle=""
 		image="images/characters/Levi Rivaille.jpg"
@@ -115,7 +115,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="14"
+		pageId="14"
 		title="Hanji Zoe" 
 		subtitle=""
 		image="images/characters/Hanji Zoe.jpg"
@@ -125,7 +125,7 @@ owner="Hajime Isayama"
 		
 <!-- EPISODES -->
 		<page 
-		id="19"
+		pageId="19"
 		title="Para ti, dos mil años después" 
 		subtitle="La caída de Shiganshina (Parte 1)"
 		image="images/episodes/episode 01.jpg"
@@ -133,7 +133,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="20"
+		pageId="20"
 		title="Ese día" 
 		subtitle="La caída de Shiganshina (Parte 2)"
 		image="images/episodes/episode 02.jpg"
@@ -141,7 +141,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="21"
+		pageId="21"
 		title="Una débil luz en la desesperación" 
 		subtitle="La restauración de la humanidad (Parte 1)"
 		image="images/episodes/episode 03.jpg"
@@ -149,7 +149,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="22"
+		pageId="22"
 		title="La noche de la disolución" 
 		subtitle="La restauración de la humanidad (Parte 2)"
 		image="images/episodes/episode 04.jpg"
@@ -157,7 +157,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="23"
+		pageId="23"
 		title="Primera Batalla" 
 		subtitle="La defensa de Trost (Parte 1)"
 		image="images/episodes/episode 05.jpg"
@@ -165,7 +165,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="24"
+		pageId="24"
 		title="El mundo que ella vió" 
 		subtitle="La defensa de Trost (Parte 2)"
 		image="images/episodes/episode 06.jpg"
@@ -173,7 +173,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="25"
+		pageId="25"
 		title="Una pequeña cuchilla" 
 		subtitle="La defensa de Trost (Parte 3)"
 		image="images/episodes/episode 07.jpg"
@@ -181,7 +181,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="26"
+		pageId="26"
 		title="Puedo oír un corazón latiendo" 
 		subtitle="La defensa de Trost (Parte 4)"
 		image="images/episodes/episode 08.jpg"
@@ -189,7 +189,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="27"
+		pageId="27"
 		title="¿Donde fue el brazo izquierdo?" 
 		subtitle="La defensa de Trost (Parte 5)"
 		image="images/episodes/episode 09.jpg"
@@ -197,7 +197,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="28"
+		pageId="28"
 		title="Respuesta" 
 		subtitle="La defensa de Trost (Parte 6)"
 		image="images/episodes/episode 10.jpg"
@@ -205,7 +205,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="29"
+		pageId="29"
 		title="Ídolo" 
 		subtitle="La defensa de Trost (Parte 7)"
 		image="images/episodes/episode 11.jpg"
@@ -213,7 +213,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="30"
+		pageId="30"
 		title="Herida" 
 		subtitle="La defensa de Trost (Parte 8)"
 		image="images/episodes/episode 12.jpg"
@@ -221,7 +221,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="31"
+		pageId="31"
 		title="Necesidades básicas" 
 		subtitle="La defensa de Trost (Parte 9)"
 		image="images/episodes/episode 13.jpg"
@@ -229,7 +229,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="32"
+		pageId="32"
 		title="No puedo mirarle a los ojos" 
 		subtitle="Preludio para el contraataque (Parte 1)"
 		image="images/episodes/episode 14.jpg"
@@ -237,7 +237,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="33"
+		pageId="33"
 		title="El escuadrón de operaciones especiales" 
 		subtitle="Preludio para el contraataque (Parte 2)"
 		image="images/episodes/episode 15.jpg"
@@ -245,7 +245,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="34"
+		pageId="34"
 		title="¿Qué debería hacer?" 
 		subtitle="Preludio para el contraataque (Parte 3)"
 		image="images/episodes/episode 16.jpg"
@@ -253,7 +253,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="35"
+		pageId="35"
 		title="El titán femenino" 
 		subtitle="57ª expedición fuera de los muros (Parte 1)"
 		image="images/episodes/episode 17.jpg"
@@ -261,7 +261,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="36"
+		pageId="36"
 		title="El bosque de los árboles gigantes" 
 		subtitle="57ª expedición fuera de los muros (Parte 2)"
 		image="images/episodes/episode 18.jpg"
@@ -269,7 +269,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="37"
+		pageId="37"
 		title="Muerde" 
 		subtitle="57ª expedición fuera de los muros (Parte 3)"
 		image="images/episodes/episode 19.jpg"
@@ -277,7 +277,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="38"
+		pageId="38"
 		title="Erwin Smith" 
 		subtitle="57ª expedición fuera de los muros (Parte 4)"
 		image="images/episodes/episode 20.jpg"
@@ -285,7 +285,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="39"
+		pageId="39"
 		title="Golpe devastador" 
 		subtitle="57ª expedición fuera de los muros (Parte 5)"
 		image="images/episodes/episode 21.jpg"
@@ -293,7 +293,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="40"
+		pageId="40"
 		title="Los vencidos" 
 		subtitle="57ª expedición fuera de los muros (Parte 6)"
 		image="images/episodes/episode 22.jpg"
@@ -301,7 +301,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="41"
+		pageId="41"
 		title="Sonrisa" 
 		subtitle="Asalto en el distrito Stohess (Parte 1)"
 		image="images/episodes/episode 23.jpg"
@@ -309,7 +309,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="42"
+		pageId="42"
 		title="Misericordia" 
 		subtitle="Asalto en el distrito Stohess (Parte 2)"
 		image="images/episodes/episode 24.jpg"
@@ -317,7 +317,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="43"
+		pageId="43"
 		title="Muro" 
 		subtitle="Asalto en el distrito Stohess (Parte 3)"
 		image="images/episodes/episode 25.jpg"
@@ -327,7 +327,7 @@ owner="Hajime Isayama"
 
 <!-- HISTORICAL CONTEXT -->
 		<page 
-		id="44"
+		pageId="44"
 		title="Policía Militar" 
 		subtitle="La guardia personal del Rey"
 		image="images/historicalcontext/Policia Militar.jpg"
@@ -335,7 +335,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="45"
+		pageId="45"
 		title="Legión de Reconocimiento" 
 		subtitle="Exploradores del exterior"
 		image="images/historicalcontext/Legion de Reconocimiento.jpg"
@@ -343,7 +343,7 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="46"
+		pageId="46"
 		title="Tropas Estacionarias" 
 		subtitle="Protegiendo las murallas"
 		image="images/historicalcontext/Tropas Estacionarias.jpg"
@@ -351,48 +351,62 @@ owner="Hajime Isayama"
 		/>
 		
 		<page 
-		id="47"
+		pageId="47"
 		title="Culto del Muro" 
 		subtitle="Inculcar y practicar la fé hacia los muros"
 		image="images/historicalcontext/Culto del Muro.jpg"
 		description="Los miembros del Culto del Muro creen que las murallas son una divinidad, estas mismas no deben ser intervenidas de ninguna manera por seres humanos. Esta facción religiosa ha reunido adeptos rápidamente desde su creación, gracias a eso intervienen mucho en las decisiones del gobierno. Se los ve presentes en muchas partes de los distritos. Cita de un predicador en Shiganshina: '¡Escuchen! ¡Los muros se han creado gracias a la sabiduría de dios! ¡Las murallas son la obra de dios! ¡Ningún alma podrá profanar estas murallas!'."
 		/>
-		
-		<page 
-		id="48"
-		title="" 
-		subtitle=""
-		image="images/historicalcontext/.jpg"
-		description=""
-		/>
-		
-		<page 
-		id="49"
-		title="" 
-		subtitle=""
-		image="images/historicalcontext/.jpg"
-		description=""
-		/>
 <!-- END HISTORICAL CONTEXT -->
+<!-- TITANS -->		
+		<page 
+		pageId="48"
+		title="Sawney" 
+		subtitle=""
+		image="images/characters/Sawney.jpg"
+		description="Sawney muestra rasgos típicos de un Titán de su clase. No muestra inteligencia. No parece sentir dolor, aún teniendo una lanza clavada en su corazón, este solo reacciona para intentar devorar a Hanji. Pierde actividad después de una hora de privación a la luz del sol. Hanji describe su personalidad como 'introvertido', pero esto puede deberse a las acciones de esta.
+		Aparición: Episodio 13
+		Tipo: Titán común
+		Altura: 4 metros
+		Habilidades: Inteligencia baja"
+		/>
+		
+		<page 
+		pageId="49"
+		title="" 
+		subtitle=""
+		image="images/historicalcontext/.jpg"
+		description=""
+		/>
+<!-- END TITANS -->
 	</pages>
 	
 	<nav>
 		<category name="Personajes">
-			<link pageId="1" />
-			<link pageId="2" />
-			<link pageId="3" />
-			<link pageId="4" />
-			<link pageId="5" />
-			<link pageId="6" />
-			<link pageId="7" />
-			<link pageId="8" />
-			<link pageId="9" />
-			<link pageId="10" />
-			<link pageId="11" />
-			<link pageId="12" />
-			<link pageId="13" />
-			<link pageId="14" />
-			<link pageId="15" />
+			<category name="Principales">
+				<link pageId="1" />
+				<link pageId="2" />
+				<link pageId="3" />
+				<link pageId="4" />
+				<link pageId="5" />
+				<link pageId="6" />
+				<link pageId="7" />
+				<link pageId="8" />
+				<link pageId="9" />
+				<link pageId="10" />
+				<link pageId="11" />
+				<link pageId="12" />
+				<link pageId="13" />
+				<link pageId="14" />
+			</category>
+			<category name="Titanes conocidos">
+				<link pageId="9" />
+				<link pageId="10" />
+				<link pageId="11" />
+				<link pageId="12" />
+				<link pageId="13" />
+				<link pageId="14" />
+			</category>
 		</category>
 	</nav>
 
