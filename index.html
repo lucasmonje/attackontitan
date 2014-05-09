@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Ginga Test</title>
+		<script type='text/javascript' src='js/jquery-1.11.1.min.js'></script>
+        <script type='text/javascript' src='js/LM.menu.controller.js'></script>
+        <script type='text/javascript' src='js/LM.menu.model.js'></script>
+        <script type='text/javascript' src='js/LM.menu.view.js'></script>
+        <script type='text/javascript'>
+            $( document ).ready(function() {
+                var menuContainer = $("#menuContainer");
+                LM.MenuView.setMenuContainer(menuContainer);
+                LM.MenuModel.addItemMenu("1", "Personajes", 0, -1, -1, ["1.1","1.2","1.3"]);
+                LM.MenuModel.addItemMenu("1.1", "Juan", 1, 1, "1", null);
+                LM.MenuModel.addItemMenu("1.2", "Lucas", 1, 2, "1", null);
+                LM.MenuModel.addItemMenu("1.3", "Pedro", 1, 3, "1", null);
+                LM.MenuModel.addItemMenu("2", "Lugares", 0, -1, -1, ["2.1","2.2","2.3"]);
+                LM.MenuModel.addItemMenu("2.1", "Avellaneda", 1, 4, "2", null);
+                LM.MenuModel.addItemMenu("2.2", "Gerli", 1, 5, "2", null);
+                LM.MenuModel.addItemMenu("2.3", "Lanus", 1, 6, "2", null);
+                LM.MenuModel.addItemMenu("3", "Cosas", 0, -1, -1, ["3.1","3.2","3.3"]);
+                LM.MenuModel.addItemMenu("3.1", "PC", 1, 7, "3", null);
+                LM.MenuModel.addItemMenu("3.2", "Taza", 1, 8, "3", null);
+                LM.MenuModel.addItemMenu("3.3", "Pera", 1, 9, "3", null);
+
+                LM.MenuView.updateMenu(LM.MenuModel.getItemsList());
+            });
+
+        </script>
+        <link rel="stylesheet" type="text/css" href="base.css" />
+        <style type="text/css" >
+            .button {
+
+                /*Step 2: Basic Button Styles*/
+                display: block;
+                height: 25px;
+                width: 180px;
+                background: #34696f;
+                border: 2px solid rgba(33, 68, 72, 0.59);
+
+                /*Step 3: Text Styles*/
+                color: rgba(0, 0, 0, 0.55);
+                text-align: center;
+                font:  1.5em Arial, Helvetica, Geneva, sans-serif;
+
+                /*Step 4: Fancy CSS3 Styles*/
+                background: -webkit-linear-gradient(top, #34696f, #2f5f63);
+                background: -moz-linear-gradient(top, #34696f, #2f5f63);
+                background: -o-linear-gradient(top, #34696f, #2f5f63);
+                background: -ms-linear-gradient(top, #34696f, #2f5f63);
+                background: linear-gradient(top, #34696f, #2f5f63);
+
+                -webkit-border-radius: 10px;
+                -khtml-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+
+            }
+
+            /*Step 3: Link Styling*/
+            a.button {
+                text-decoration: none;
+            }
+/*
+            .itemMenuIdle,.itemMenuSelected,.itemMenuOpened,.categoryMenuIdle,.categoryMenuIdle,.categoryMenuSelected,
+            .categoryMenuOpened {
+                color: rgb(0, 0, 0);
+                border-radius: 4px;
+                text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            }
+            */
+            .categoryMenuIdle {
+                background: rgb(227, 227, 227);
+            }
+            .categoryMenuSelected {
+                background: rgb(51, 199, 212);
+            }
+            .categoryMenuOpened {
+                background: rgb(255, 159, 15);
+            }
+            .itemMenuIdle {
+                background: rgb(255, 255, 255);
+            }
+            .itemMenuSelected {
+                background: rgb(51, 199, 212);
+            }
+            .itemMenuOpened {
+                background: rgb(65, 242, 121);
+            }
+        </style>
+	</head>
+	<body>
+        <div id="menuContainer">
+        </div>
+    </body>
+</html>

@@ -58,8 +58,4 @@ var LM = LM || {};
 
     namespaces.local[_MODULE_NAME] = _module;
 
-})(
-    {
-        local: LM
-    }
-);
+})({local: LM});

@@ -3,7 +3,7 @@ var LM = LM || {};
 
 (function(namespaces) {
     var _module;
-    var _MODULE_NAME = 'Config',
+    var _MODULE_NAME = 'PageModel',
         _settings = {
 			name:'',
 			releaseDate:'',
@@ -74,9 +74,5 @@ var LM = LM || {};
     };
     
     namespaces.local[_MODULE_NAME] = _module;
-    
-})(
-        {
-            local: LM
-        }
-);
+
+})({local: LM});

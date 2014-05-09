@@ -2,7 +2,7 @@ var LM = LM || {};
 
 (function(namespaces) {
     var _module;
-    var _MODULE_NAME = 'Menu',
+    var _MODULE_NAME = 'MenuModel',
         _data = {
             menu: {
                 keys:[],
@@ -11,10 +11,13 @@ var LM = LM || {};
                 branches:[],
                 count:0
             },
-            currentIndex : 0,
-            itemsCapacity: 10,
             lastItemMenuIdSelected: -1,
-            lastItemMenuIdOpened: -1
+            lastItemMenuIdOpened: -1,
+            currentIndex: 0,
+            boundTop:0,
+            boundBottom:10,
+            slots: 10,
+            listLength: 0
         };
 
     _module = {
@@ -27,7 +30,7 @@ var LM = LM || {};
 
             _data.lastItemMenuIdSelected = itemMenuId;
         },
-        setOpenedItem: function(itemMenuId) {
+        setOpenedItem : function(itemMenuId) {
             var itemMenuOpened = _data.menu.map[_data.itemMenuId];
             itemMenuOpened.selected = true;
 
@@ -35,50 +38,73 @@ var LM = LM || {};
             lastItemMenuOpened.selected = itemMenuOpened.parentItemId == _data.lastItemMenuIdOpened;
             _data.lastItemMenuIdOpened = itemMenuId;
         },
-        setCurrentIndex : function(v) {
-          _data.currentIndex = v;
+        increaseCurrentIndex : function() {
+            if (_data.currentIndex < _data.listLength) {
+                _data.currentIndex = _data.currentIndex + 1;
+            }
+        },
+        decreaseCurrentIndex : function() {
+            if (_data.currentIndex > 0) {
+                _data.currentIndex = _data.currentIndex - 1;
+            }
         },
         getCurrentIndex : function() {
             return _data.currentIndex;
         },
         getItemsList : function() {
             var list = [];
-            for (var itemMenu in _data.menu.branches) {
-                LM.Menu.updateItemList(list, itemMenu);
+
+            for (var i = 0; i < _data.menu.branches.length; i++) {
+                var itemMenu = _data.menu.branches[i];
+                LM.MenuModel.updateItemList(list, itemMenu);
             }
-            var result = list.splice(_data.currentIndex, _data.itemsCapacity);
+            _data.listLength = list.length;
+
+            var result = null;
+            if (list.length > _data.slots) {
+                if (_data.currentIndex > _data.boundBottom) {
+                    _data.boundTop = _data.currentIndex - _data.slots;
+                    _data.boundBottom = _data.currentIndex;
+                } else if (_data.currentIndex < _data.boundTop) {
+                    _data.boundTop = _data.currentIndex;
+                    _data.boundBottom = _data.currentIndex + _data.slots;
+                }
+                result = list.splice(_data.boundTop, _data.boundBottom);
+            } else {
+                result = list;
+            }
+
             return result;
         },
         updateItemList : function(list, itemMenu) {
             list[list.length] = itemMenu;
-            if (itemMenu.isCategory && itemMenu.isOpened) {
-                LM.Menu.updateCategoryList(list, itemMenu);
+            if (itemMenu.isCategory && itemMenu.opened) {
+                LM.MenuModel.updateCategoryList(list, itemMenu);
             }
         },
         updateCategoryList : function(list, itemCategory) {
-            for (var childItemId in itemCategory.childItemsIds) {
-                var childItem = LM.Menu.getItemMenuById(childItemId);
-                updateItemList(list, childItem);
+            for (var i = 0; i < itemCategory.childItemsIds.length; i++) {
+                var childItemId = itemCategory.childItemsIds[i];
+                var childItem = LM.MenuModel.getItemMenuById(childItemId);
+                LM.MenuModel.updateItemList(list, childItem);
             }
         },
-        addItemMenu : function(itemMenuId, treeDepth, pageId, parentItemId, childItemsIds) {
-            var page = LM.Config.getPage(pageId);
+        addItemMenu : function(itemMenuId, itemMenuName, treeDepth, pageId, parentItemId, childItemsIds) {
             var itemMenu = {
                 itemMenuId: itemMenuId,
                 treeDepth: treeDepth,
                 pageId : pageId,
                 parentItemId: parentItemId,
                 childItemsIds : childItemsIds,
-                page: page,
-                name: page.name,
-                isCategory: childItemsIds.length > 0,
+                name: itemMenuName,
+                isCategory: childItemsIds != null ? childItemsIds.length > 0 : false,
                 selected: false,
                 opened: false
             };
 
             _data.menu.keys[_data.menu.count] = itemMenuId;
             _data.menu.values[_data.menu.count] = itemMenu;
-            _data.menu.map[itemMenuId] = page;
+            _data.menu.map[itemMenuId] = itemMenu;
 
             if (treeDepth == 0) {
                 _data.menu.branches[_data.menu.branches.length] = itemMenu;
@@ -93,8 +119,4 @@ var LM = LM || {};
     
     namespaces.local[_MODULE_NAME] = _module;
     
-})(
-        {
-            local: LM
-        }
-);
+})({local: LM});
