@@ -24,6 +24,12 @@
                 LM.MenuModel.addItemMenu("3.2", "Taza", 1, 8, "3", null);
                 LM.MenuModel.addItemMenu("3.3", "Pera", 1, 9, "3", null);
 
+                LM.MenuModel.setOpenedItem("1");
+                LM.MenuModel.setOpenedItem("2");
+                LM.MenuModel.setOpenedItem("3");
+                LM.MenuModel.getItemsList();
+
+                LM.MenuModel.increaseCurrentIndex();
                 LM.MenuView.updateMenu(LM.MenuModel.getItemsList());
             });
 
@@ -31,45 +37,32 @@
         <link rel="stylesheet" type="text/css" href="base.css" />
         <style type="text/css" >
             .button {
-
-                /*Step 2: Basic Button Styles*/
+                /*Basic Button Styles*/
                 display: block;
                 height: 25px;
                 width: 180px;
                 background: #34696f;
                 border: 2px solid rgba(33, 68, 72, 0.59);
-
-                /*Step 3: Text Styles*/
+                /*Text Styles*/
                 color: rgba(0, 0, 0, 0.55);
                 text-align: center;
                 font:  1.5em Arial, Helvetica, Geneva, sans-serif;
-
-                /*Step 4: Fancy CSS3 Styles*/
+                /*Fancy CSS3 Styles*/
                 background: -webkit-linear-gradient(top, #34696f, #2f5f63);
                 background: -moz-linear-gradient(top, #34696f, #2f5f63);
                 background: -o-linear-gradient(top, #34696f, #2f5f63);
                 background: -ms-linear-gradient(top, #34696f, #2f5f63);
                 background: linear-gradient(top, #34696f, #2f5f63);
-
                 -webkit-border-radius: 10px;
                 -khtml-border-radius: 10px;
                 -moz-border-radius: 10px;
                 border-radius: 10px;
-
             }
-
-            /*Step 3: Link Styling*/
-            a.button {
-                text-decoration: none;
-            }
-/*
-            .itemMenuIdle,.itemMenuSelected,.itemMenuOpened,.categoryMenuIdle,.categoryMenuIdle,.categoryMenuSelected,
-            .categoryMenuOpened {
-                color: rgb(0, 0, 0);
-                border-radius: 4px;
-                text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-            }
-            */
+            .margin0 { margin-left:0px; }
+            .margin1 { margin-left:10px; }
+            .margin2 { margin-left:20px; }
+            .margin3 { margin-left:30px; }
+            .margin4 { margin-left:40px; }
             .categoryMenuIdle {
                 background: rgb(227, 227, 227);
             }

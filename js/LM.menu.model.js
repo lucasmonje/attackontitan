@@ -12,41 +12,45 @@ var LM = LM || {};
                 count:0
             },
             lastItemMenuIdSelected: -1,
-            lastItemMenuIdOpened: -1,
             currentIndex: 0,
             boundTop:0,
-            boundBottom:10,
             slots: 10,
-            listLength: 0
+            lastList: []
         };
 
     _module = {
         setSelectedItem : function(itemMenuId) {
-            var lastItemMenuSelected = _data.menu.map[_data.lastItemMenuIdSelected];
-            lastItemMenuSelected.selected = false;
-
-            var itemMenuSelected = _data.menu.map[_data.itemMenuId];
+            if (_data.lastItemMenuIdSelected > -1) {
+                var lastItemMenuSelected = _data.menu.map[_data.lastItemMenuIdSelected];
+                lastItemMenuSelected.selected = false;
+            }
+            var itemMenuSelected = _data.menu.map[itemMenuId];
             itemMenuSelected.selected = true;
 
             _data.lastItemMenuIdSelected = itemMenuId;
         },
         setOpenedItem : function(itemMenuId) {
-            var itemMenuOpened = _data.menu.map[_data.itemMenuId];
-            itemMenuOpened.selected = true;
-
-            var lastItemMenuOpened = _data.menu.map[_data.lastItemMenuIdOpened];
-            lastItemMenuOpened.selected = itemMenuOpened.parentItemId == _data.lastItemMenuIdOpened;
-            _data.lastItemMenuIdOpened = itemMenuId;
+            var itemMenuOpened = _data.menu.map[itemMenuId];
+            itemMenuOpened.opened = true;
         },
         increaseCurrentIndex : function() {
-            if (_data.currentIndex < _data.listLength) {
+            if (_data.currentIndex < _data.lastList.length) {
+                var lastItemMenuSelected = _data.lastList[_data.currentIndex];
+                lastItemMenuSelected.selected = false;
                 _data.currentIndex = _data.currentIndex + 1;
+                var itemMenuSelected = _data.lastList[_data.currentIndex];
+                itemMenuSelected.selected = true;
             }
         },
         decreaseCurrentIndex : function() {
             if (_data.currentIndex > 0) {
+                var lastItemMenuSelected = _data.lastList[_data.currentIndex];
+                lastItemMenuSelected.selected = false;
                 _data.currentIndex = _data.currentIndex - 1;
+                var itemMenuSelected = _data.lastList[_data.currentIndex];
+                itemMenuSelected.selected = true;
             }
+
         },
         getCurrentIndex : function() {
             return _data.currentIndex;
@@ -58,18 +62,17 @@ var LM = LM || {};
                 var itemMenu = _data.menu.branches[i];
                 LM.MenuModel.updateItemList(list, itemMenu);
             }
-            _data.listLength = list.length;
+            _data.lastList = list.slice(0);//copy list
 
             var result = null;
             if (list.length > _data.slots) {
-                if (_data.currentIndex > _data.boundBottom) {
-                    _data.boundTop = _data.currentIndex - _data.slots;
-                    _data.boundBottom = _data.currentIndex;
-                } else if (_data.currentIndex < _data.boundTop) {
-                    _data.boundTop = _data.currentIndex;
-                    _data.boundBottom = _data.currentIndex + _data.slots;
+                var currentSlot = _data.currentIndex + 1;
+                if (currentSlot > _data.slots) {
+                    _data.boundTop = currentSlot - _data.slots;
+                } else if (currentSlot < _data.boundTop) {
+                    _data.boundTop = currentSlot;
                 }
-                result = list.splice(_data.boundTop, _data.boundBottom);
+                result = list.splice(_data.boundTop, _data.slots);
             } else {
                 result = list;
             }

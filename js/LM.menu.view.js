@@ -26,12 +26,9 @@ var LM = LM || {},
 
             for (var i = 0; i < itemsList.length; i++) {
                 var itemMenu = itemsList[i];
-                var itemView = d.createElement("a");
-                $(itemView).attr("href", "#");
+                var itemView = d.createElement("div");
                 $(itemView).addClass("button");
-                //var itemView = d.createElement("BUTTON");
-                //var t = d.createTextNode(itemMenu.name);
-                //itemView.appendChild(t);
+
                 itemView.id = itemMenu.itemMenuId;
                 var className = "";
                 if (itemMenu.isCategory) {
@@ -42,8 +39,10 @@ var LM = LM || {},
                         : (itemMenu.opened ? _data.classNames.itemMenuOpened : _data.classNames.itemMenuIdle);
                 }
                 $(itemView).addClass(className);
+
+                $(itemView).addClass('margin' + itemMenu.treeDepth);
+
                 $(itemView).html(itemMenu.name +"</br>");
-                //$(itemView).attachEvent('onclick',LM.MenuCotroller.onPressOK())
                 document.getElementById(_data.menuContainerId).appendChild(itemView);
             }
         },
